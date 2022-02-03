@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,13 +22,14 @@
                 <img src="img/cart.png" id="img-carrito" alt="carrito" />
                 <div id="carrito">
                   <table id="lista-carrito" class="u-full-width">
+                    <caption></caption>
                     <thead>
                       <tr>
-                        <th>Imagen</th>
-                        <th>Nombre</th>
-                        <th>Precio</th>
-                        <th>Cantidad</th>
-                        <th></th>
+                        <th class="lista-carrito-row" scope="col">Imagen</th>
+                        <th class="lista-carrito-row" scope="col">Nombre</th>
+                        <th class="lista-carrito-row" scope="col">Precio</th>
+                        <th class="lista-carrito-row" scope="col">Cantidad</th>
+                        <th class="lista-carrito-row" scope="col"></th>
                       </tr>
                     </thead>
                     <tbody></tbody>
@@ -52,19 +53,6 @@
             <div class="contenido-hero">
               <h2>Aprende algo nuevo</h2>
               <p>Todos los cursos a $15</p>
-              <form action="#" id="busqueda" method="post" class="formulario">
-                <input
-                  class="u-full-width"
-                  type="text"
-                  placeholder="¿Que te gustaría Aprender?"
-                  id="buscador"
-                />
-                <input
-                  type="submit"
-                  id="submit-buscador"
-                  class="submit-buscador"
-                />
-              </form>
             </div>
           </div>
         </div>
@@ -101,11 +89,15 @@
       <div class="row">
         <div class="four columns">
           <div class="card">
-            <img src="img/curso1.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso1.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 1"
+            />
             <div class="info-card">
               <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Juan Rodriguez</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -119,11 +111,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso2.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso2.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 2"
+            />
             <div class="info-card">
               <h4>Curso de Comida Vegetariana</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Juan Lopez</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -136,11 +132,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso3.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso3.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 3"
+            />
             <div class="info-card">
               <h4>Guitarra para Principiantes</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Miguel Perez</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -157,11 +157,15 @@
       <div class="row">
         <div class="four columns">
           <div class="card">
-            <img src="img/curso4.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso4.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 4"
+            />
             <div class="info-card">
               <h4>Huerto en tu casa</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>José Ricaldi</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -175,11 +179,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso5.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso5.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 5"
+            />
             <div class="info-card">
               <h4>Decoración con productos de tu hogar</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Jesús Miranda</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -193,11 +201,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso1.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso1.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 1"
+            />
             <div class="info-card">
               <h4>Diseño Web para Principiantes</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Luis Pedrozo</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -214,11 +226,15 @@
       <div class="row">
         <div class="four columns">
           <div class="card">
-            <img src="img/curso2.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso2.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 2"
+            />
             <div class="info-card">
               <h4>Comida Mexicana para principiantes</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Martin Perez</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -232,11 +248,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso3.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso3.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 3"
+            />
             <div class="info-card">
               <h4>Estudio Musical en tu casa</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Elvis Polo</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -250,11 +270,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso4.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso4.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 4"
+            />
             <div class="info-card">
               <h4>Cosecha tus propias frutas y verduras</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Javier Díaz</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -271,11 +295,15 @@
       <div class="row">
         <div class="four columns">
           <div class="card">
-            <img src="img/curso5.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso5.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 5"
+            />
             <div class="info-card">
               <h4>Prepara galletas caseras</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Renato Preciado</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -289,11 +317,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso1.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso1.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 1"
+            />
             <div class="info-card">
               <h4>JavaScript Moderno con ES6</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Rodrigo Román</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -307,11 +339,15 @@
         </div>
         <div class="four columns">
           <div class="card">
-            <img src="img/curso2.jpg" class="imagen-curso u-full-width" />
+            <img
+              src="img/curso2.jpg"
+              class="imagen-curso u-full-width"
+              alt="curso 2"
+            />
             <div class="info-card">
               <h4>100 Recetas de Comida Natural</h4>
-              <p>Juan Pedro</p>
-              <img src="img/estrellas.png" />
+              <p>Juan Mendez</p>
+              <img src="img/estrellas.png" alt="estrellas" />
               <p class="precio">$200 <span class="u-pull-right">$15</span></p>
               <a
                 href="#"
@@ -331,20 +367,20 @@
       <div class="container">
         <div class="row">
           <div class="four columns">
-            <nav id="principal" class="menu">
+            <div id="principal" class="menu">
               <a class="enlace" href="#">Para tu Negocio</a>
               <a class="enlace" href="#">Conviertete en Instructor</a>
               <a class="enlace" href="#">Aplicaciones Móviles</a>
               <a class="enlace" href="#">Soporte</a>
               <a class="enlace" href="#">Temas</a>
-            </nav>
+            </div>
           </div>
           <div class="four columns">
-            <nav id="secundaria" class="menu">
+            <div id="secundaria" class="menu">
               <a class="enlace" href="#">¿Quienes Somos?</a>
               <a class="enlace" href="#">Empleo</a>
               <a class="enlace" href="#">Blog</a>
-            </nav>
+            </div>
           </div>
         </div>
       </div>

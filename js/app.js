@@ -18,20 +18,22 @@ const carritoHTML = () => {
     const { imagen, titulo, precio, cantidad, id } = curso;
     const row = document.createElement("tr");
     row.innerHTML = `
-      <td>
-        <img src="${imagen}" width="100">
+      <td class="lista-carrito-row">
+        <div class="image-container">
+          <img src="${imagen}" class="image-curso" alt="imagen curso">
+        </div>
       </td>
-      <td>
+      <td class="lista-carrito-row">
         ${titulo}
       </td>
-      <td>
+      <td class="lista-carrito-row">
         ${precio}
       </td>
-      <td>
+      <td class="lista-carrito-row">
         ${cantidad}
       </td>
       <td>
-        <a href="#" class="borrar-curso" data-id=${id}> X </a>
+        <a href="#" class="borrar-curso" data-id=${id}>X</a>
       </td>
       `;
 
